@@ -1,0 +1,12 @@
+[GLOBAL]
+pants_version = "2.31.0"
+backend_packages = [
+    "pants.backend.experimental.go",
+    "pants.backend.experimental.go.lint.golangci_lint",
+    "pants.backend.docker",
+    "pants.backend.docker.lint.hadolint",
+    "pants.backend.experimental.docker.lint.trivy",
+]
+
+[golang]
+go_search_paths = ["/Users/tom/.asdf/installs/golang/1.26.0/go/bin/"]
