@@ -6,7 +6,11 @@ backend_packages = [
     "pants.backend.docker",
     "pants.backend.docker.lint.hadolint",
     "pants.backend.experimental.docker.lint.trivy",
+    "pants.backend.experimental.helm",
 ]
 
 [golang]
 go_search_paths = ["/Users/tom/.asdf/installs/golang/1.26.0/go/bin/"]
+
+[python]
+interpreter_constraints = ['==3.11.*']

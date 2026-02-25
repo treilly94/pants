@@ -1,5 +1,5 @@
 package package1
 
 func Add() string {
-	return "package1"
+	return "package1 test"
 }

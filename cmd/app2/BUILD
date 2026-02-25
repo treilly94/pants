@@ -6,7 +6,7 @@ go_binary(
 
 docker_image(
     name="docker",
-    repository="app2",
-    image_tags=["dev", "latest"],
+    repository="ghcr.io/treilly94/pants/app2",
+    image_tags=["latest"],
     dependencies=[":bin", "cmd/app1:docker"],
 )
